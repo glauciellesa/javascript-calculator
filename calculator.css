@@ -10,7 +10,7 @@ button {
 }
 
 body{
-    background: rgb(106, 140, 167);
+    background: linear-gradient(to right, rgb(157, 234, 244), rgb(254, 206, 214));
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 .container {
@@ -20,13 +20,13 @@ body{
     height: 100vh;
 }
 .calculator {
-    border-radius: 10px;
+    border-radius: 5px;
     overflow: hidden; 
     box-shadow: 5px 5px 5px rgba(14, 14, 14, 0.331);
 }
 .display {
-    background: rgb(114, 114, 114);
-    color: white;
+    background: rgb(140, 190, 208);
+    color: rgb(255, 255, 255);
     font-weight: bolder;
     text-align: right;
     padding: 10px;
@@ -44,12 +44,15 @@ body{
     grid-template-columns: auto auto auto auto;
 }
 .input button {
+
     padding: 20px;
     font-size: 16px;
+    border: 1px solid rgb(251, 242, 232);
     transition: all 0.3s ease-in-out;    
 }
 button:hover{
     font-weight: bolder;
+    background-color:rgb(254, 206, 214); 
 }
 
 @keyframes big {
