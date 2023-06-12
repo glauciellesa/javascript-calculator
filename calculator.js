@@ -30,6 +30,5 @@ function calculate() {
     }
     else {
         output.textContent += buttonText;
-        return; 
     }
 }
